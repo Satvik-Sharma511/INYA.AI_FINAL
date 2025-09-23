@@ -1,0 +1,50 @@
+📌 Overview
+This project implements an Inya AI Agent Chain for managing Service Requests and Installations in the consumer durables sector.
+The agent:
+Detects intent (Service Request or Installation)
+Asks appliance-specific questions
+Collects and validates customer details (name, phone, email, address, pincode, preferred time)
+Uses a pincode-to-region API with fallback mapping
+Matches and schedules technicians based on skills, appliance, and region
+Escalates gracefully to a live agent if required
+Tone: Supportive, calm, solution-oriented.
+🔗 API Integration
+Pincode Lookup API
+Endpoint: https://api.zippopotam.us/IN/{PINCODE}
+Parsing Rule: Extract "place name" or "state" as region_label
+Fallback Mapping (regions.json)
+{
+  "regions": [
+    {"pincode_prefix": "560011", "region_label": "Bengaluru Urban"},
+    {"pincode_prefix": "400011", "region_label": "Mumbai Suburban"},
+    {"pincode_prefix": "110011", "region_label": "Delhi"}
+  ]
+}
+📂 Mock Data Files
+technicians.json
+{
+  "technicians": [
+    {
+      "id": "tech_01",
+      "name": "Asha K",
+      "skills": ["wm_vibration", "ac_leak"],
+      "appliances_supported": ["WashingMachine", "AC"],
+      "regions": ["Bengaluru Urban"],
+      "availability_slots": [
+        {"start": "2025-09-14T10:00:00+05:30", "end": "2025-09-14T12:00:00+05:30"},
+        {"start": "2025-09-14T15:00:00+05:30", "end": "2025-09-14T16:00:00+05:30"}
+      ]
+    }
+  ]
+}
+regions.json – fallback for pincode → region mapping
+
+▶️ How to Run
+Open the Inya Agent link provided for this project.
+Test with different pincodes:
+✅ Available technician regions:
+560011 → Bengaluru Urban
+400011 → Mumbai Suburban
+110011 → Delhi
+ℹ️ Other valid pincodes → Agent identifies region but shows no technician availability.
+❌ Invalid pincodes → Agent retries API, then falls back to cached mapping or returns “Not Found.”
