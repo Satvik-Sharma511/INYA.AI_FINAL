@@ -1,17 +1,33 @@
 📌 Overview
+
 This project implements an Inya AI Agent Chain for managing Service Requests and Installations in the consumer durables sector.
-The agent:
-Detects intent (Service Request or Installation)
-Asks appliance-specific questions
-Collects and validates customer details (name, phone, email, address, pincode, preferred time)
-Uses a pincode-to-region API with fallback mapping
-Matches and schedules technicians based on skills, appliance, and region
-Escalates gracefully to a live agent if required
+
+The agent is designed to:
+
+🔍 Detect intent (Service Request or Installation)
+
+❓ Ask appliance-specific questions
+
+📝 Collect and validate customer details (name, phone, email, address, pincode, preferred time)
+
+🌐 Use a pincode-to-region API with fallback mapping
+
+👩‍🔧 Match & schedule technicians based on skills, appliance, and region
+
+📞 Escalate gracefully to a live agent if required
+
 Tone: Supportive, calm, solution-oriented.
+
 🔗 API Integration
 Pincode Lookup API
-Endpoint: https://api.zippopotam.us/IN/{PINCODE}
-Parsing Rule: Extract "place name" or "state" as region_label
+
+Endpoint:
+
+https://api.zippopotam.us/IN/{PINCODE}
+
+
+Parsing Rule: Extract "place name" or "state" as region_label.
+
 Fallback Mapping (regions.json)
 {
   "regions": [
@@ -20,6 +36,7 @@ Fallback Mapping (regions.json)
     {"pincode_prefix": "110011", "region_label": "Delhi"}
   ]
 }
+
 📂 Mock Data Files
 technicians.json
 {
@@ -37,14 +54,26 @@ technicians.json
     }
   ]
 }
-regions.json – fallback for pincode → region mapping
+
+regions.json
+
 
 ▶️ How to Run
+
 Open the Inya Agent link provided for this project.
+
 Test with different pincodes:
+
 ✅ Available technician regions:
+
 560011 → Bengaluru Urban
+
 400011 → Mumbai Suburban
+
 110011 → Delhi
-ℹ️ Other valid pincodes → Agent identifies region but shows no technician availability.
-❌ Invalid pincodes → Agent retries API, then falls back to cached mapping or returns “Not Found.”
+
+ℹ️ Other valid pincodes:
+Agent identifies region, but shows no technician availability.
+
+❌ Invalid pincodes:
+Agent retries API → falls back to cached mapping → returns “Not Found.”
