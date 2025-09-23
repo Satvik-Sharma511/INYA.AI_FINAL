@@ -1,0 +1,8 @@
+{
+    "regions": [
+        {"pincode_prefix": "560011", "region_label": "Bengaluru Urban"},
+        {"pincode_prefix": "400011", "region_label": "Mumbai Suburban"},
+        {"pincode_prefix": "110011", "region_label": "Delhi"},
+        {"pincode_prefix": "*", "region_label": "Region not found"}
+    ]
+}

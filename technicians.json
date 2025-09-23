@@ -1,0 +1,342 @@
+{
+    "technicians": [
+       
+        {
+            "id": "tech_BU_01",
+            "name": "Asha K",
+            "skills": ["wm_vibration", "ac_leak"],
+            "appliances_supported": ["WashingMachine", "AC"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-20T10:00:00+05:30", "end": "2025-09-20T12:00:00+05:30"},
+                {"start": "2025-09-20T14:00:00+05:30", "end": "2025-09-20T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_BU_02",
+            "name": "Priya M",
+            "skills": ["ac_airflow", "waterpurifier_filter"],
+            "appliances_supported": ["AC", "WaterPurifier"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-21T09:30:00+05:30", "end": "2025-09-21T11:30:00+05:30"},
+                {"start": "2025-09-21T13:30:00+05:30", "end": "2025-09-21T15:30:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_BU_03",
+            "name": "Neha R",
+            "skills": ["fridge_temp", "tv_sound"],
+            "appliances_supported": ["Refrigerator", "TV"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-22T10:00:00+05:30", "end": "2025-09-22T12:00:00+05:30"},
+                {"start": "2025-09-22T14:00:00+05:30", "end": "2025-09-22T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_BU_04",
+            "name": "Kiran V",
+            "skills": ["waterpurifier_flow", "ac_noise", "wm_motor"],
+            "appliances_supported": ["WaterPurifier", "AC", "WashingMachine"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-23T09:30:00+05:30", "end": "2025-09-23T11:30:00+05:30"},
+                {"start": "2025-09-23T13:30:00+05:30", "end": "2025-09-23T15:30:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_BU_05",
+            "name": "Anil P",
+            "skills": ["wm_drum", "ac_cooling"],
+            "appliances_supported": ["WashingMachine", "AC"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-24T10:00:00+05:30", "end": "2025-09-24T12:00:00+05:30"},
+                {"start": "2025-09-24T14:00:00+05:30", "end": "2025-09-24T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_BU_06",
+            "name": "Ritika S",
+            "skills": ["ac_leak", "wm_motor"],
+            "appliances_supported": ["AC", "WashingMachine"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-25T09:00:00+05:30", "end": "2025-09-25T11:00:00+05:30"},
+                {"start": "2025-09-25T13:00:00+05:30", "end": "2025-09-25T15:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_BU_07",
+            "name": "Siddharth K",
+            "skills": ["tv_display", "fridge_cooling"],
+            "appliances_supported": ["TV", "Refrigerator"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-26T10:00:00+05:30", "end": "2025-09-26T12:00:00+05:30"},
+                {"start": "2025-09-26T14:00:00+05:30", "end": "2025-09-26T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_BU_08",
+            "name": "Megha P",
+            "skills": ["waterpurifier_filter", "ac_noise"],
+            "appliances_supported": ["WaterPurifier", "AC"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-27T09:30:00+05:30", "end": "2025-09-27T11:30:00+05:30"},
+                {"start": "2025-09-27T13:30:00+05:30", "end": "2025-09-27T15:30:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_BU_09",
+            "name": "Vikram D",
+            "skills": ["ac_cooling", "fridge_temp"],
+            "appliances_supported": ["AC", "Refrigerator"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-28T10:00:00+05:30", "end": "2025-09-28T12:00:00+05:30"},
+                {"start": "2025-09-28T14:00:00+05:30", "end": "2025-09-28T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_BU_10",
+            "name": "Ananya R",
+            "skills": ["wm_drum", "tv_sound"],
+            "appliances_supported": ["WashingMachine", "TV"],
+            "regions": ["Bengaluru Urban"],
+            "availability_slots": [
+                {"start": "2025-09-29T09:00:00+05:30", "end": "2025-09-29T11:00:00+05:30"},
+                {"start": "2025-09-29T13:00:00+05:30", "end": "2025-09-29T15:00:00+05:30"}
+            ]
+        },
+
+    
+        {
+            "id": "tech_MS_01",
+            "name": "Ravi S",
+            "skills": ["fridge_cooling", "tv_display"],
+            "appliances_supported": ["Refrigerator", "TV"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-20T09:00:00+05:30", "end": "2025-09-20T11:00:00+05:30"},
+                {"start": "2025-09-20T13:00:00+05:30", "end": "2025-09-20T15:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_MS_02",
+            "name": "Anil P",
+            "skills": ["wm_drum", "ac_cooling"],
+            "appliances_supported": ["WashingMachine", "AC"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-21T09:30:00+05:30", "end": "2025-09-21T11:30:00+05:30"},
+                {"start": "2025-09-21T13:30:00+05:30", "end": "2025-09-21T15:30:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_MS_03",
+            "name": "Kiran V",
+            "skills": ["waterpurifier_flow", "ac_noise", "wm_motor"],
+            "appliances_supported": ["WaterPurifier", "AC", "WashingMachine"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-22T10:00:00+05:30", "end": "2025-09-22T12:00:00+05:30"},
+                {"start": "2025-09-22T14:00:00+05:30", "end": "2025-09-22T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_MS_04",
+            "name": "Neha R",
+            "skills": ["fridge_temp", "tv_sound"],
+            "appliances_supported": ["Refrigerator", "TV"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-23T09:30:00+05:30", "end": "2025-09-23T11:30:00+05:30"},
+                {"start": "2025-09-23T13:30:00+05:30", "end": "2025-09-23T15:30:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_MS_05",
+            "name": "Sanya K",
+            "skills": ["wm_motor", "tv_display"],
+            "appliances_supported": ["WashingMachine", "TV"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-24T10:00:00+05:30", "end": "2025-09-24T12:00:00+05:30"},
+                {"start": "2025-09-24T14:00:00+05:30", "end": "2025-09-24T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_MS_06",
+            "name": "Ritika S",
+            "skills": ["ac_leak", "wm_motor"],
+            "appliances_supported": ["AC", "WashingMachine"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-25T09:00:00+05:30", "end": "2025-09-25T11:00:00+05:30"},
+                {"start": "2025-09-25T13:00:00+05:30", "end": "2025-09-25T15:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_MS_07",
+            "name": "Siddharth K",
+            "skills": ["tv_display", "fridge_cooling"],
+            "appliances_supported": ["TV", "Refrigerator"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-26T10:00:00+05:30", "end": "2025-09-26T12:00:00+05:30"},
+                {"start": "2025-09-26T14:00:00+05:30", "end": "2025-09-26T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_MS_08",
+            "name": "Megha P",
+            "skills": ["waterpurifier_filter", "ac_noise"],
+            "appliances_supported": ["WaterPurifier", "AC"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-27T09:30:00+05:30", "end": "2025-09-27T11:30:00+05:30"},
+                {"start": "2025-09-27T13:30:00+05:30", "end": "2025-09-27T15:30:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_MS_09",
+            "name": "Vikram D",
+            "skills": ["ac_cooling", "fridge_temp"],
+            "appliances_supported": ["AC", "Refrigerator"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-28T10:00:00+05:30", "end": "2025-09-28T12:00:00+05:30"},
+                {"start": "2025-09-28T14:00:00+05:30", "end": "2025-09-28T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_MS_10",
+            "name": "Ananya R",
+            "skills": ["wm_drum", "tv_sound"],
+            "appliances_supported": ["WashingMachine", "TV"],
+            "regions": ["Mumbai Suburban"],
+            "availability_slots": [
+                {"start": "2025-09-29T09:00:00+05:30", "end": "2025-09-29T11:00:00+05:30"},
+                {"start": "2025-09-29T13:00:00+05:30", "end": "2025-09-29T15:00:00+05:30"}
+            ]
+        },
+
+   
+        {
+            "id": "tech_DL_01",
+            "name": "Vikram D",
+            "skills": ["ac_cooling", "fridge_cooling"],
+            "appliances_supported": ["AC", "Refrigerator"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-20T09:00:00+05:30", "end": "2025-09-20T11:00:00+05:30"},
+                {"start": "2025-09-20T13:00:00+05:30", "end": "2025-09-20T15:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_DL_02",
+            "name": "Sanya K",
+            "skills": ["wm_motor", "tv_display"],
+            "appliances_supported": ["WashingMachine", "TV"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-21T10:00:00+05:30", "end": "2025-09-21T12:00:00+05:30"},
+                {"start": "2025-09-21T14:00:00+05:30", "end": "2025-09-21T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_DL_03",
+            "name": "Rahul P",
+            "skills": ["fridge_temp", "waterpurifier_flow"],
+            "appliances_supported": ["Refrigerator", "WaterPurifier"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-22T09:30:00+05:30", "end": "2025-09-22T11:30:00+05:30"},
+                {"start": "2025-09-22T13:30:00+05:30", "end": "2025-09-22T15:30:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_DL_04",
+            "name": "Priyanka S",
+            "skills": ["ac_airflow", "wm_drum"],
+            "appliances_supported": ["AC", "WashingMachine"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-23T10:00:00+05:30", "end": "2025-09-23T12:00:00+05:30"},
+                {"start": "2025-09-23T14:00:00+05:30", "end": "2025-09-23T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_DL_05",
+            "name": "Rohan M",
+            "skills": ["fridge_cooling", "tv_sound"],
+            "appliances_supported": ["Refrigerator", "TV"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-24T09:00:00+05:30", "end": "2025-09-24T11:00:00+05:30"},
+                {"start": "2025-09-24T13:00:00+05:30", "end": "2025-09-24T15:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_DL_06",
+            "name": "Ankit S",
+            "skills": ["ac_leak", "wm_motor"],
+            "appliances_supported": ["AC", "WashingMachine"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-25T09:30:00+05:30", "end": "2025-09-25T11:30:00+05:30"},
+                {"start": "2025-09-25T13:30:00+05:30", "end": "2025-09-25T15:30:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_DL_07",
+            "name": "Shivani R",
+            "skills": ["tv_display", "fridge_temp"],
+            "appliances_supported": ["TV", "Refrigerator"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-26T10:00:00+05:30", "end": "2025-09-26T12:00:00+05:30"},
+                {"start": "2025-09-26T14:00:00+05:30", "end": "2025-09-26T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_DL_08",
+            "name": "Tanya P",
+            "skills": ["waterpurifier_filter", "ac_noise"],
+            "appliances_supported": ["WaterPurifier", "AC"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-27T09:30:00+05:30", "end": "2025-09-27T11:30:00+05:30"},
+                {"start": "2025-09-27T13:30:00+05:30", "end": "2025-09-27T15:30:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_DL_09",
+            "name": "Raghav M",
+            "skills": ["ac_cooling", "fridge_cooling"],
+            "appliances_supported": ["AC", "Refrigerator"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-28T10:00:00+05:30", "end": "2025-09-28T12:00:00+05:30"},
+                {"start": "2025-09-28T14:00:00+05:30", "end": "2025-09-28T16:00:00+05:30"}
+            ]
+        },
+        {
+            "id": "tech_DL_10",
+            "name": "Isha S",
+            "skills": ["wm_drum", "tv_sound"],
+            "appliances_supported": ["WashingMachine", "TV"],
+            "regions": ["Delhi"],
+            "availability_slots": [
+                {"start": "2025-09-29T09:00:00+05:30", "end": "2025-09-29T11:00:00+05:30"},
+                {"start": "2025-09-29T13:00:00+05:30", "end": "2025-09-29T15:00:00+05:30"}
+            ]
+        }
+    ],
+    "default": {
+        "message": "No technician available for this region"
+    }
+}
