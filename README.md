@@ -1,4 +1,4 @@
-📌 Overview
+📌 Overview      LinkedIn post: https://www.linkedin.com/posts/satvik-sharma-a3132128a_destroyers-nasscom-ai-activity-7376346328148246528-eSS3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYrsoUBB36v2ylkbpCbVvHiyxruBwiFOKk
 
 This project implements an Inya AI Agent Chain for managing Service Requests and Installations in the consumer durables sector.
 
