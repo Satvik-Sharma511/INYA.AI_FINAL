@@ -62,7 +62,7 @@ regions.json
 
 ▶️ How to Run
 
-Open the Inya Agent link provided for this project. https://app.inya.ai/chat-demo/2104941d-4c08-4050-bd2e-9a02ef3b754f
+Open the Inya Agent link provided for this project. https://app.inya.ai/chat-demo/46ff24b8-db1e-4ed9-8002-c78a32f5892b
 
 Test with different pincodes:
 
